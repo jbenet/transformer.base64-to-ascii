@@ -1,0 +1,30 @@
+{
+  "name": "transformer.base64-to-ascii",
+  "version": "0.0.1",
+  "description": "transformer conversion: base64 to ascii",
+  "main": "index.js",
+  "transformer": "transformer.jsonld",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "transformer",
+    "transformer-conversion"
+  ],
+  "dependencies": {
+    "transformer.base64": "0.0.1",
+    "transformer.ascii": "0.0.3",
+    "dat-transformer": "~0.1.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jbenet/transformer.base64-to-ascii.git"
+  },
+  "author": "Juan Benet <juan@benet.ai> (http://juan.benet.ai/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbenet/transformer.base64-to-ascii/issues"
+  },
+  "homepage": "https://github.com/jbenet/transformer.base64-to-ascii"
+}

@@ -1,0 +1,8 @@
+{
+ "@context": "http://transformer.io/context/transformer.jsonld",
+ "type": "conversion",
+ "input": "base64",
+ "output": "ascii",
+ "id": "base64-to-ascii",
+ "description": "base64 to ascii"
+}
