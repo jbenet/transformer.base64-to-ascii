@@ -1,6 +1,6 @@
 {
   "name": "transformer.base64-to-ascii",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "transformer conversion: base64 to ascii",
   "main": "index.js",
   "transformer": "transformer.jsonld",
@@ -12,9 +12,10 @@
     "transformer-conversion"
   ],
   "dependencies": {
-    "transformer.base64": "0.0.1",
+    "transformer-conversion": "^0.1.2",
+    "transformer-test": "^0.1.0",
     "transformer.ascii": "0.0.3",
-    "dat-transformer": "~0.1.5"
+    "transformer.base64": "0.0.1"
   },
   "devDependencies": {},
   "repository": {
